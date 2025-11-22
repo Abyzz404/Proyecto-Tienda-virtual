@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Administración</title>
+</head>
+<body>
+    <h1>Administrador productos</h1>
+
+    <a href="/agregar">Agregar productos</a>
+
+    <h2>Productos actuales:</h2>
+    {% for p in productos %}
+       <p>{{ p.nombre }} - ${{ p.precio }}</p>
+    {% endfor %}   
+
+    <br>
+    <a href="/">Volver</a>
+</body>
+</html>

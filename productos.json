@@ -1,0 +1,16 @@
+[
+    {
+        "nombre": "Manzana",
+        "precio": "2500"
+    }
+    ,
+    {
+        "nombre": "Melon",
+        "precio": "3500" 
+    }
+    ,
+    {
+        "nombre": "Banano",
+        "precio": "2000"
+    }
+]

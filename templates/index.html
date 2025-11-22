@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tienda virtual - Inicio</title>
+</head>
+<body>
+    <h1>Productos disponibles</h1>
+
+    {% for p in productos %}
+        <p>{{ p.nombre }} - ${{ p.precio }}</p>
+    {% endfor %}
+
+    <a href="/carrito">Ir al carrito</a><br>
+    <a href="/admin">Administración</a>
+</body>
+</html>
